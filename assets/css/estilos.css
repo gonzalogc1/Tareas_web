@@ -1,0 +1,26 @@
+body {
+  background-color: lightblue;
+  font-family: 'Geo', sans-serif;
+}
+.contenedor{
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 2rem;
+  background-color: rgb(130, 196, 187);
+  color: rgb(213, 234, 243);
+  border-radius: 10px;
+  box-shadow: 0 50px 50px rgba(161, 240, 214, 0.3);
+  line-height: 2;
+}
+.geo-regular {
+  font-family: "Geo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.geo-regular-italic {
+  font-family: "Geo", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
