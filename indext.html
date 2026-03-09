@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Ejercicios de Programación</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        @media all and (min-width: 992px) {
+            .navbar .nav-item .dropdown-menu { display: none; }
+            .navbar .nav-item:hover .dropdown-menu { display: block; margin-top: 0; }
+        }
+        section {
+            padding-top: 80px;
+            min-height: 80vh; 
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Mis Ejercicios</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#vistos-en-clase">
+                            Vistos en Clase
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="ejercicio1.html">1. Número Par o Impar</a></li>
+                            <li><a class="dropdown-item" href="ejercicio2.html">2. Tabla de Multiplicar</a></li>
+                            <li><a class="dropdown-item" href="ejercicio3.html">3. Producto por sumas</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#ejercicios-for">
+                            Usos de For
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="for1.html">1. Ciclo Básico</a></li>
+                            <li><a class="dropdown-item" href="for2.html">2. Iterar Arreglos</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <section id="vistos-en-clase">
+            <h2 class="mb-4">Ejercicios Vistos en Clase</h2>
+            <p>Listado general de problemas resueltos en el aula.</p>
+            
+            <table class="table table-striped table-hover table-bordered shadow-sm">
+                <thead class="table-light">
+                    <tr>
+                        <th scope="col" style="width: 5%;">#</th>
+                        <th scope="col" style="width: 75%;">Descripción del Problema</th>
+                        <th scope="col" style="width: 20%;">Acción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Leer un número y mostrar si dicho número es o no es par.</td>
+                        <td><a href="ejercicio1.html" class="btn btn-dark btn-sm w-100">Ver solución</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Leer un número y mostrar su tabla de multiplicar.</td>
+                        <td><a href="ejercicio2.html" class="btn btn-dark btn-sm w-100">Ver solución</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Leer dos números y realizar el producto mediante sumas.</td>
+                        <td><a href="ejercicio3.html" class="btn btn-dark btn-sm w-100">Ver solución</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Leer una secuencia de n números, almacenarlos en un arreglo y mostrar la posición donde se encuentra el mayor valor leído.</td>
+                        <td><a href="ejercicio4.html" class="btn btn-dark btn-sm w-100">Ver solución</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="ejercicios-for">
+            <h2 class="mb-4">Ejercicios: Usos de For</h2>
+            <hr>
+            <table class="table table-striped table-hover table-bordered shadow-sm">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col" style="width: 5%;">#</th>
+                        <th scope="col" style="width: 75%;">Descripción del Problema</th>
+                        <th scope="col" style="width: 20%;">Acción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Ejemplo básico de iteración con bucle for.</td>
+                        <td><a href="for1.html" class="btn btn-dark btn-sm w-100">Ver solución</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+<footer>
+    <a href="index.html" class="btn btn-dark btn-sm w-100">Regresar</a></td>
+</footer>
+</html>
